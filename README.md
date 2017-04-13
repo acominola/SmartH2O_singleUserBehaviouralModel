@@ -5,7 +5,7 @@ Copyright:
 
 Copyright 2017 SmartH2O consortium (http://www.smarth2o-fp7.eu/)
 
-Developers: Andrea Cominola, Ahmad Alsahaf, Matteo Giuliani, Andrea Castelletti.
+Developers: Andrea Cominola, Ahmad Alsahaf, Matteo Giuliani, Andrea Castelletti (NRM group at Politecnico di Milano http://www.nrm.deib.polimi.it/)
 
 SmartH2O_singleUserBehaviouralModel is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
