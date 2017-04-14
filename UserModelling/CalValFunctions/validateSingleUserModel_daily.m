@@ -146,13 +146,13 @@ for t=1:T
     end
     % daily consumption
     genCons11(t,:) = m11(df)+s11(df)*randn(1,N11) ;
-    %genCons21(t,:) = m21(df)+s21(df)*randn(1,N21) ;
-    %genCons31(t,:) = m31(df)+s31(df)*randn(1,N31) ;
-    %genCons41(t,:) = m41(df)+s41(df)*randn(1,N41) ;
+    genCons21(t,:) = m21(df)+s21(df)*randn(1,N21) ;
+    genCons31(t,:) = m31(df)+s31(df)*randn(1,N31) ;
+    genCons41(t,:) = m41(df)+s41(df)*randn(1,N41) ;
     genCons15(t,:) = m15(df)+s15(df)*randn(1,N15) ;
     genCons25(t,:) = m25(df)+s25(df)*randn(1,N25) ;
     genCons35(t,:) = m35(df)+s35(df)*randn(1,N35) ;
-    %genCons45(t,:) = m45(df)+s45(df)*randn(1,N45) ;
+    genCons45(t,:) = m45(df)+s45(df)*randn(1,N45) ;
 end
 gCC = [genCons11 genCons21 genCons31 genCons41 ...
     genCons15 genCons25 genCons35 genCons45 ...
