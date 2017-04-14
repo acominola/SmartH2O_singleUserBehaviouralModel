@@ -80,9 +80,9 @@ m45 = mean(c45) ; s45 = std(c45) ;
 
 % mean
 MM{1,1} = mean(c11) ;
-MM{2,1} = mean(c11) ;%c21) ;
-MM{3,1} = mean(c11) ;%c31) ;
-MM{4,1} = mean(c11) ;%c41) ;
+MM{2,1} = mean(c21) ;
+MM{3,1} = mean(c31) ;
+MM{4,1} = mean(c41) ;
 MM{1,2} = mean(c15) ;
 MM{2,2} = mean(c25) ;
 MM{3,2} = mean(c35) ;
@@ -90,9 +90,9 @@ MM{4,2} = mean(c45) ;
 
 % std
 SS{1,1} = std(c11) ;
-SS{2,1} = std(c11) ;%c11) ;%c21) ;
-SS{3,1} = std(c11) ;%c31) ;
-SS{4,1} = std(c11) ;%c41) ;
+SS{2,1} = std(c21) ;
+SS{3,1} = std(c31) ;
+SS{4,1} = std(c41) ;
 SS{1,2} = std(c15) ;
 SS{2,2} = std(c25) ;
 SS{3,2} = std(c35) ;
