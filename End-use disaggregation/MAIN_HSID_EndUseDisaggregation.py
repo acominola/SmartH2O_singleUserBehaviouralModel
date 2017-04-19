@@ -74,7 +74,7 @@ building = dataset.buildings[1]
 # Preprocessing:
 print(' :::::::::: Dividing data into test and train')
 lenToUse = len(building.utility.electric.appliances.items()[0][1]);
-train, test = train_test_split(building, train_size = float(1)/2.0*lenToUse, test_size = float(1)/2.0*lenToUse) # This splits the dataset in 1/2 for training and 1/2 for testing. Test-training ratio should be set by users
+train, test = train_test_split(building, train_size = int(float(1)/2.0*lenToUse), test_size = int(float(1)/2.0*lenToUse)) # This splits the dataset in 1/2 for training and 1/2 for testing. Test-training ratio should be set by users
 
 
 ###  ---------- Disaggregation with FHMM ---------- #
