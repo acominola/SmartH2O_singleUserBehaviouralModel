@@ -1,5 +1,5 @@
 # SmartH2O_singleUserBehaviouralModel
-Code repository for the code developed in the SmartH2O project (http://www.smarth2o-fp7.eu/) for single-user behavioural modelling from samrt-metered data:
+Code repository for the code developed in the SmartH2O project (http://www.smarth2o-fp7.eu/) for single-user behavioural modelling from smart-metered data:
 
 - directory "UserModelling" contains Matlab scripts used to run SmartH2O single-user behaviour models as described in deliverable D3.4 ("Final user behavior models and ABM platform") of the SmartH2O project;
 
