@@ -9,7 +9,7 @@
 # 
 # Requirements for running this code: 
 #
-#   - the HSID algorithm requires the installation of the NILM toolkit v0.2 (http://nilmtk.github.io/), 
+#   - the HSID algorithm requires the installation of the NILM toolkit (http://nilmtk.github.io/), 
 #     developed by Batra et al. "Batra N, Kelly J, Parson O, Dutta H, Knottenbelt W, Rogers A, et al. NILMTK: an
 #     open source toolkit for non-intrusive load monitoring. In: Proceedings of the
 #     5th international conference on future energy systems. ACM; 2014. p. 265–76." Part of this script is inspired by 
